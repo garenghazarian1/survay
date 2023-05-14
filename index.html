@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DCI Digital Career Institute</title>
+</head>
+
+
+<!-- the head -->
+
+<h1 id="title">DCI Digital Career Institute</h1> 
+
+<!-- the paragraph -->
+
+<p id="description">The first step into a secure career!</p>
+
+<!-- create a form with name email and age placeholder-->
+
+<form id="survey-form">
+  <div class="input-element">
+    <label id="name-label">
+    Name
+    </label>
+      <input placeholder="name" id="name" type="text" required/>
+  </div>
+  <div class="input-element">
+    <label id="email-label">
+   Email
+    </label>
+      <input placeholder="email" id="email" type="email" required/>
+  </div>
+  <div class="input-element">
+    <label id="number-label">
+    Age
+    </label>
+      <input placeholder="age" id="number" min="17" max="99" type="number" required/>
+  </div>
+
+  <!-- select current role with 4 choices  -->
+
+  <div class="input-element">
+    <label id="select-label">
+    Select current role
+    </label>    
+    <select id="dropdown">
+      <option>Choose one</option>
+      <option>Student</option>
+      <option>Full time learner</option>
+      <option>Others</option>
+    </select>
+  </div>
+
+  <!-- create radio button  -->
+
+  <div class="input-element">
+    <label>Would you recommend DCI to a friend?</label>
+    <div><label><input type="radio" value="Definitely" name="game"/>Definitely</label></div>
+    <div><label><input type="radio" value="Maybe" name="game"/>Maybe</label></div>
+    <div><label><input type="radio" value="Not sure" name="game"/></label>Not sure</div>
+</div>
+     <!-- choose courses dropdown  -->
+
+    <div class="input-element">
+    <label id="select-label">
+    Choose the course that suits you
+    </label>
+    <select id="dropdown">
+      <option>Choose one</option>
+      <option>Web Development</option>
+      <option>Online Marketing</option>
+      <option>Others</option>
+    </select>
+  </div>
+
+    <!-- check state checkbox -->
+
+    <div class="input-element">
+    <label>Check if you qualify for a 100% Financed course.
+Select your state to get started</label>
+    <div><label><input type="checkbox" name="ideas" value="cityname" />Berlin</label></div>
+    <div><label><input type="checkbox" name="ideas" value="cityname" />Hamburg</label></div>
+    <div><label><input type="checkbox" name="ideas" value="cityname" />Bremen</label>Not sure</div>
+    <div><label><input type="checkbox" name="ideas" value="cityname" />Hessen</label>Not sure</div>
+</div>
+
+    <!-- testaria -->
+
+<div class="input-element">
+  <label>
+Could you provide any feedback or recommendations?
+  </label>
+  <textarea></textarea>
+</div>
+  <div class="input-element"><button type="submit" id="submit">
+    submit
+  </buttom>
+  </div>
+    
+</form>
+</html>
